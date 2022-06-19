@@ -1,12 +1,8 @@
 import { createServer } from "http";
-import'dotenv/config'
 import { IResponse, TUserPayload } from "./types";
 import * as controllers from './controllers'
 
-const {PORT} = process.env
-
-
-const server = createServer((req, res) => {
+export const server = createServer((req, res) => {
 	let rawPayload = ''
 	let payload: TUserPayload
 
@@ -69,4 +65,4 @@ const server = createServer((req, res) => {
 	})
 })
 
-server.listen(PORT)
+
