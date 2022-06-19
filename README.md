@@ -5,6 +5,7 @@
 - `npm install`
 - Start in dev mode - `npm run start:dev`
 - Start in prod mode - `npm run start:prod`
+- Start in cluster mode - `npm run start:multi`
 
 ## После этого у вас должен запустится кластер <br/>с соответствующим сообщением в консоли. <br/>Для тестирования приложения, пожалуйста, используйте [Postman](https://link-url-here.org)
 
