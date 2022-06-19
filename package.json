@@ -4,8 +4,9 @@
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "start:dev": "nodemon --exec ts-node ./src/cluster.ts",
+    "start:dev": "nodemon --exec ts-node ./src/index.ts",
     "start:prod": "webpack && node ./dist/index.js",
+    "start:multi": "nodemon --exec ts-node ./src/cluster.ts",
     "test": "jest"
   },
   "repository": {

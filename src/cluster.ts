@@ -1,6 +1,6 @@
 import os from "os";
 import cluster from "cluster";
-import {server} from "./index";
+import {server} from "./server";
 import 'dotenv/config'
 const {PORT} = process.env
 if (cluster.isPrimary) {

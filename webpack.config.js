@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const config = (env, argv) => {
   const mode = argv.mode || "development";
   return {
-    entry: "./src/cluster.ts",
+    entry: "./src/index.ts",
     output: {
       filename: "index.js",
       path: path.resolve(__dirname, "dist/"),

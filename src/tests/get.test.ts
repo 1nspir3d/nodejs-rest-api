@@ -1,5 +1,5 @@
 const request = require('supertest')
-const {server} = require('../index')
+const {server} = require('../server')
 describe('Test GET method', () => {
   it('should answer with status code 200 and all users records or empty object if there are no users to be returned', async () => {
     const res = await request(server)
