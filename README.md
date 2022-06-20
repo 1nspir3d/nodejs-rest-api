@@ -1,6 +1,7 @@
 # Installing, running and using
 
 - `git clone https://github.com/1nspir3d/nodejs-rest-api.git`
+- `cd nodejs-rest-api`
 - `git checkout dev`
 - `npm install`
 - Start in dev mode - `npm run start:dev`
